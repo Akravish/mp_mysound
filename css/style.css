@@ -34,9 +34,10 @@ body{
     color: aliceblue;
     margin: 5px auto;
     text-align: center;
-    border: 1px solid yellow;
+    border: 1px solid black;
     display: block;
-    width: 40%; }
+    width: 40%;
+    height:400px; }
 /*===========footer=========================*/
 .footer{
     bottom: 0;
@@ -51,9 +52,21 @@ body{
     height: 75%;
     border: 1px solid black;
 }
+.footerTop div {
+    margin: 10px auto 0;
+    padding: 10px 0 0;
+    display: inline-block;
+    position: relative;
+
+    border-radius: 25px;
+    width: 70px;
+    height: 60px;
+    border: 1px solid black;
+}
 .footerBottom{
     height: 25%;
     border: 1px solid black;
+
 }
 
 
