@@ -1,10 +1,59 @@
-body{background-color: black;}
-
-
-.header{
-
+body{
+    background-color: coral;
+    background-image: url("../pic/fon.jpg");
+    background-repeat: no-repeat;
 }
-.wrapper{}
-.footer{}
+/*==========header==========================*/
+.header {
+    height: 50px;
+    background:rgba(124, 212, 255, 0.2);
+
+    border: 1px solid black;
+}
+.headerMenu{
+
+    margin: 0 0 0 15%;
+    display: inline-block;
+    position: relative;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    border: 1px solid black;
+}
+.headerSocialNetwork{
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    border: 1px solid black;
+}
+/*===========wrapper=========================*/
+.wrapper{
+    color: aliceblue;
+    margin: 5px auto;
+    text-align: center;
+    border: 1px solid yellow;
+    display: block;
+    width: 40%; }
+/*===========footer=========================*/
+.footer{
+    bottom: 0;
+    position: fixed;
+    height: 120px;
+    width: 100%;
+    /*margin: 0 auto;*/
+    border: 1px solid black;
+    text-align: center;
+}
+.footerTop{
+    height: 75%;
+    border: 1px solid black;
+}
+.footerBottom{
+    height: 25%;
+    border: 1px solid black;
+}
 
 
