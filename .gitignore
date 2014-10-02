@@ -1,0 +1,6 @@
+# ignore all files in the next folders 
+pic/
+audio/
+css/
+.idea/
+.idea/.name
