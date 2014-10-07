@@ -15,7 +15,7 @@ body{
     margin: 0 0 0 15%;
     display: inline-block;
     position: relative;
-    width: 60%;
+    width: 59%;
     height: 100%;
     text-align: center;
     border: 1px solid black;
@@ -36,8 +36,8 @@ body{
     text-align: center;
     border: 1px solid black;
     display: block;
-    width: 40%;
-    height:400px; }
+    width: 60%;
+    height:500px; }
 /*===========footer=========================*/
 .footer{
     bottom: 0;
@@ -54,14 +54,15 @@ body{
 }
 .footerTop div {
     margin: 10px auto 0;
-    padding: 10px 0 0;
+    padding: 0;
     display: inline-block;
     position: relative;
 
     border-radius: 25px;
     width: 70px;
-    height: 60px;
-    border: 1px solid black;
+    height: 70px;
+    /*border: 1px solid black;*/
+    overflow: hidden;
 }
 .footerBottom{
     height: 25%;
